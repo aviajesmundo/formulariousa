@@ -1,0 +1,1443 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Formulario Adulto 2025</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
+                background-color: #f4f4f4;
+            }
+            .container {
+                width: 80%;
+                margin: auto;
+                overflow: hidden;
+                background: #fff;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            h2 {
+                color: #0029fd;
+                border-bottom: 2px solid #333;
+                padding-bottom: 5px;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+            label {
+                display: block;
+                margin-bottom: 5px;
+                font-weight: bold;
+                color: #3131ff;
+            }
+            input[type="text"],
+            input[type="email"],
+            input[type="date"],
+            textarea,
+            select {
+                width: 100%;
+                padding: 8px;
+                margin-bottom: 10px;
+                border: 1px solid #ddd;
+                border-radius: 50px;
+                box-sizing: border-box;
+            }
+            input[type="radio"] {
+                margin-right: 5px;
+            }
+            .section {
+                margin-bottom: 20px;
+                padding: 15px;
+                border: 1px solid #ddd;
+                border-radius: 50px;
+                background-color: #dff7f5;
+            }
+            button {
+                background-color: #0e1ee8;
+                color: white;
+                padding: 10px 15px;
+                border: none;
+                border-radius: 50px;
+                cursor: pointer;
+                font-size: 16px;
+                
+            }
+            button:hover {
+                background-color: #4cae4c;
+            }
+            .grid-container {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                gap: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h2>Formulario Adulto 2025</h2>
+            <form id="vysForm">
+                <div class="section">
+                    <h3>Información Personal</h3>
+                    <div class="grid-container">
+                        <div>
+                            <label for="nombres">Nombres:</label>
+                            <input type="text" id="nombres" name="nombres" />
+                        </div>
+                        <div>
+                            <label for="apellidos">Apellidos:</label>
+                            <input type="text" id="apellidos" name="apellidos" />
+                        </div>
+                        <div>
+                            <label for="otrosNombres">Alguna vez ha usado otros nombres:</label>
+                            <input type="text" id="otrosNombres" name="otrosNombres" />
+                        </div>
+
+                        <div>
+                            <label>Sexo:</label>
+                            <span style="display: inline-block; margin-left: 10px">
+                                <input type="radio" id="femenino" name="sexo" value="Femenino" />
+                                <label for="femenino" style="display: inline">Femenino</label>
+                            </span>
+                            <span style="display: inline-block; margin-left: 20px">
+                                <input type="radio" id="masculino" name="sexo" value="Masculino" />
+                                <label for="masculino" style="display: inline">Masculino</label>
+                            </span>
+                        </div>
+
+                        <div>
+                            <label for="dni">DNI o Carnet de Extranjería:</label>
+                            <input type="text" id="dni" name="dni" />
+                        </div>
+                        <div>
+                            <label>Estado Civil:</label>
+                            <select id="estadoCivil" name="estadoCivil">
+                                <option value="Soltero">Soltero</option>
+                                <option value="Casado">Casado</option>
+                                <option value="Conviviente">Conviviente</option>
+                                <option value="Viudo">Viudo</option>
+                                <option value="Divorciado">Divorciado</option>
+                                <option value="Separado">Legalmente Separado</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="lugarNacimiento">Lugar de Nacimiento del Titular:</label>
+                            <input type="text" id="lugarNacimiento" name="lugarNacimiento" />
+                        </div>
+                        <div>
+                            <label for="fechaNacimiento">Fecha de Nacimiento (D/M/A):</label>
+                            <input type="date" id="fechaNacimiento" name="fechaNacimiento" />
+                        </div>
+                        <div>
+                            <label for="nacionalidad">Nacionalidad:</label>
+                            <input type="text" id="nacionalidad" name="nacionalidad" />
+                        </div>
+                        <div>
+                            <label for="otraNacionalidad">Otra Nacionalidad:</label>
+                            <input type="text" id="otraNacionalidad" name="otraNacionalidad" />
+                        </div>
+                        <div>
+                            <label for="domicilio">Domicilio:</label>
+                            <input type="text" id="domicilio" name="domicilio" />
+                        </div>
+                        <div>
+                            <label for="distrito">Distrito:</label>
+                            <input type="text" id="distrito" name="distrito" />
+                        </div>
+
+                        <div>
+                            <label>¿Su dirección postal es la misma?:</label>
+                            <span style="display: inline-block; margin-left: 10px">
+                                <input type="radio" id="postalSi" name="direccionPostal" value="Si" />
+                                <label for="postalSi" style="display: inline">Si</label>
+                            </span>
+                            <span style="display: inline-block; margin-left: 20px">
+                                <input type="radio" id="postalNo" name="direccionPostal" value="No" />
+                                <label for="postalNo" style="display: inline">No</label>
+                            </span>
+                        </div>
+
+                        <div>
+                            <label for="codigoPostal">Código Postal:</label>
+                            <input type="text" id="codigoPostal" name="codigoPostal" />
+                        </div>
+                        <div>
+                            <label for="telefonoFijo">Teléfono Fijo:</label>
+                            <input type="text" id="telefonoFijo" name="telefonoFijo" />
+                        </div>
+                        <div>
+                            <label for="celular">Celular:</label>
+                            <input type="text" id="celular" name="celular" />
+                        </div>
+                        <div>
+                            <label for="telefonoTrabajo">Teléfono Trabajo:</label>
+                            <input type="text" id="telefonoTrabajo" name="telefonoTrabajo" />
+                        </div>
+
+                        <div>
+                            <label for="correoElectronico">Dirección de Correo Electrónico:</label>
+                            <input type="email" id="correoElectronico" name="correoElectronico" />
+                        </div>
+
+                        <div>
+                            <label>¿Ha usado otros números de teléfono en los últimos 5 años?:</label>
+                            <span style="display: inline-block; margin-left: 10px">
+                                <input type="radio" id="otrosTelefonosSi" name="otrosTelefonos" value="Si" />
+                                <label for="otrosTelefonosSi">Si</label>
+                            </span>
+                            <span style="display: inline-block; margin-left: 20px">
+                                <input type="radio" id="otrosTelefonosNo" name="otrosTelefonos" value="No" />
+                                <label for="otrosTelefonosNo">No</label>
+                            </span>
+                        </div>
+
+                        <div>
+                            <label for="indicarTelefonos">Indicar Teléfonos:</label>
+                            <input type="text" id="indicarTelefonos" name="indicarTelefonos" />
+                        </div>
+
+                        <br />
+
+                        <div>
+                            <label>¿Ha usado otro correo electrónico en los últimos 5 años?:</label>
+                            <span style="display: inline-block; margin-left: 10px">
+                                <input type="radio" id="otroCorreoSi" name="otroCorreo" value="Si" />
+                                <label for="otroCorreoSi">Si</label>
+                            </span>
+                            <span style="display: inline-block; margin-left: 20px">
+                                <input type="radio" id="otroCorreoNo" name="otroCorreo" value="No" />
+                                <label for="otroCorreoNo">No</label>
+                            </span>
+                        </div>
+
+                        <div>
+                            <label for="indicarCorreos">Indicar Correos:</label>
+                            <input type="text" id="indicarCorreos" name="indicarCorreos" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3>Redes Sociales</h3>
+                    <p>*Indicar como aparece en las redes sociales (usuario)</p>
+                    <div class="grid-container">
+                        <div>
+                            <label for="facebook">Facebook:</label>
+                            <input type="text" id="facebook" name="facebook" />
+                        </div>
+                        <div>
+                            <label for="instagram">Instagram:</label>
+                            <input type="text" id="instagram" name="instagram" />
+                        </div>
+                        <div>
+                            <label for="askfm">Ask.fm:</label>
+                            <input type="text" id="askfm" name="askfm" />
+                        </div>
+                        <div>
+                            <label for="linkedin">LinkedIn:</label>
+                            <input type="text" id="linkedin" name="linkedin" />
+                        </div>
+                        <div>
+                            <label for="twitter">Twitter:</label>
+                            <input type="text" id="twitter" name="twitter" />
+                        </div>
+                        <div>
+                            <label for="douban">Douban:</label>
+                            <input type="text" id="douban" name="douban" />
+                        </div>
+                        <div>
+                            <label for="youtube">YouTube:</label>
+                            <input type="text" id="youtube" name="youtube" />
+                        </div>
+                        <div>
+                            <label for="pinterest">Pinterest:</label>
+                            <input type="text" id="pinterest" name="pinterest" />
+                        </div>
+                        <div>
+                            <label for="flickr">Flickr:</label>
+                            <input type="text" id="flickr" name="flickr" />
+                        </div>
+                        <div>
+                            <label for="tumblr">Tumblr:</label>
+                            <input type="text" id="tumblr" name="tumblr" />
+                        </div>
+                        <div>
+                            <label for="reddit">Reddit:</label>
+                            <input type="text" id="reddit" name="reddit" />
+                        </div>
+                        <div>
+                            <label for="myspace">My Space:</label>
+                            <input type="text" id="myspace" name="myspace" />
+                        </div>
+                        <div>
+                            <label for="googleplus">Google+:</label>
+                            <input type="text" id="googleplus" name="googleplus" />
+                        </div>
+                        <div>
+                            <label for="qzone">Qzone:</label>
+                            <input type="text" id="qzone" name="qzone" />
+                        </div>
+                        <div>
+                            <label for="sinaweibo">Sina Weibo:</label>
+                            <input type="text" id="sinaweibo" name="sinaweibo" />
+                        </div>
+                        <div>
+                            <label for="tencentweibo">Tencent Weibo:</label>
+                            <input type="text" id="tencentweibo" name="tencentweibo" />
+                        </div>
+                        <div>
+                            <label for="twoo">Twoo:</label>
+                            <input type="text" id="twoo" name="twoo" />
+                        </div>
+                        <div>
+                            <label for="vine">Vine:</label>
+                            <input type="text" id="vine" name="vine" />
+                        </div>
+                        <div>
+                            <label for="vkontakte">VKontakte:</label>
+                            <input type="text" id="vkontakte" name="vkontakte" />
+                        </div>
+                        <div>
+                            <label for="youku">Youku:</label>
+                            <input type="text" id="youku" name="youku" />
+                        </div>
+                        <div>
+                            <label for="otroRedSocial">Otro:</label>
+                            <input type="text" id="otroRedSocial" name="otroRedSocial" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3>Información del Viaje</h3>
+                    <div class="grid-container">
+                        <div>
+                            <label for="propositoViaje">Propósito del Viaje (Específico):</label>
+                            <input type="text" id="propositoViaje" name="propositoViaje" />
+                        </div>
+                        <div>
+                            <label for="fechaLlegada">Fecha de Llegada Prevista (D/M/A):</label>
+                            <input type="date" id="fechaLlegada" name="fechaLlegada" />
+                        </div>
+                        <div>
+                            <label for="tiempoPermanencia">Tiempo de Permanencia:</label>
+                            <input type="text" id="tiempoPermanencia" name="tiempoPermanencia" />
+                        </div>
+                        <div>
+                            <label for="direccionUSA">Dirección donde se alojará en USA:</label>
+                            <input type="text" id="direccionUSA" name="direccionUSA" />
+                        </div>
+
+                        <br /><br />
+
+                        <div>
+                            <label>Persona o entidad que pagará los gastos:</label>
+                            <span style="display: inline-block; margin-left: 10px">
+                                <input type="radio" id="pagaYo" name="pagaGastos" value="Yo" />
+                                <label for="pagaYo">Yo</label>
+                            </span>
+                            <span style="display: inline-block; margin-left: 20px">
+                                <input type="radio" id="pagaOtros" name="pagaGastos" value="Otros" />
+                                <label for="pagaOtros">Otros</label>
+                            </span>
+                        </div>
+
+                        <div>
+                            <label for="nombresApellidosPaga">Nombres y Apellidos:</label>
+                            <input type="text" id="nombresApellidosPaga" name="nombresApellidosPaga" />
+                        </div>
+                        <div>
+                            <label for="relacionPaga">Relación con usted:</label>
+                            <input type="text" id="relacionPaga" name="relacionPaga" />
+                        </div>
+                        <div>
+                            <label for="correoPaga">Correo Electrónico:</label>
+                            <input type="email" id="correoPaga" name="correoPaga" />
+                        </div>
+                        <div>
+                            <label for="telefonoPaga">Teléfono:</label>
+                            <input type="text" id="telefonoPaga" name="telefonoPaga" />
+                        </div>
+                        <div>
+                            <label for="direccionPaga">Dirección:</label>
+                            <input type="text" id="direccionPaga" name="direccionPaga" />
+                        </div>
+
+                        <br />
+                        <div>
+                            <label>¿Hay otras personas que viajan con usted?:</label>
+                            <span style="display: inline-block; margin-left: 10px">
+                                <input type="radio" id="viajaSi" name="viajaConOtros" value="Si" />
+                                <label for="viajaSi">Si</label>
+                            </span>
+                            <span style="display: inline-block; margin-left: 20px">
+                                <input type="radio" id="viajaNo" name="viajaConOtros" value="No" />
+                                <label for="viajaNo">No</label>
+                            </span>
+                        </div>
+
+                        <div>
+                            <label for="nombresApellidosViaja">Nombres y Apellidos:</label>
+                            <input type="text" id="nombresApellidosViaja" name="nombresApellidosViaja" />
+                        </div>
+                        <div>
+                            <label for="relacionViaja">Relación con usted:</label>
+                            <input type="text" id="relacionViaja" name="relacionViaja" />
+                        </div>
+                        <div>
+                            <label for="direccionViaja">Dirección:</label>
+                            <input type="text" id="direccionViaja" name="direccionViaja" />
+                        </div>
+                        <div>
+                            <label for="correoViaja">Correo Electrónico:</label>
+                            <input type="email" id="correoViaja" name="correoViaja" />
+                        </div>
+                        <div>
+                            <label for="telefonoViaja">Teléfono:</label>
+                            <input type="text" id="telefonoViaja" name="telefonoViaja" />
+                        </div>
+
+                        <div>
+                            <label>¿Viaja como parte de un grupo u organización?:</label>
+                            <span style="display: inline-block; margin-left: 10px">
+                                <input type="radio" id="grupoSi" name="viajaEnGrupo" value="Si" />
+                                <label for="grupoSi">Si</label>
+                            </span>
+                            <span style="display: inline-block; margin-left: 20px">
+                                <input type="radio" id="grupoNo" name="viajaEnGrupo" value="No" />
+                                <label for="grupoNo">No</label>
+                            </span>
+                        </div>
+
+                        <div>
+                            <label for="nombreGrupo">Nombre de grupo:</label>
+                            <input type="text" id="nombreGrupo" name="nombreGrupo" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3>Información de Viaje Anterior a Estados Unidos</h3>
+                    <div class="grid-container">
+                        <div>
+                            <label>¿Alguna vez ha estado en U.S.A?:</label>
+                            <span style="display: inline-block; margin-left: 10px">
+                                <input type="radio" id="estadoUSA_Si" name="algunaVezEnUSA" value="Si" />
+                                <label for="estadoUSA_Si">Si</label>
+                            </span>
+                            <span style="display: inline-block; margin-left: 20px">
+                                <input type="radio" id="estadoUSA_No" name="algunaVezEnUSA" value="No" />
+                                <label for="estadoUSA_No">No</label>
+                            </span>
+                        </div>
+
+                        <div>
+                            <label
+                                >*Proporcione información sobre sus últimas cinco visitas a los Estados Unidos o
+                                adjuntar movimiento migratorio</label
+                            >
+                        </div>
+                        <br />
+                        <div>
+                            <label for="destino1">Destino:</label>
+                            <input type="text" id="destino1" name="destino1" />
+                        </div>
+                        <div>
+                            <label for="fechaLlegada1">Fecha de Llegada:</label>
+                            <input type="date" id="fechaLlegada1" name="fechaLlegada1" />
+                        </div>
+                        <div>
+                            <label for="tiempoPermanencia1">Tiempo de Permanencia:</label>
+                            <input type="text" id="tiempoPermanencia1" name="tiempoPermanencia1" />
+                        </div>
+                        <div>
+                            <label for="destino2">Destino:</label>
+                            <input type="text" id="destino2" name="destino2" />
+                        </div>
+                        <div>
+                            <label for="fechaLlegada2">Fecha de Llegada:</label>
+                            <input type="date" id="fechaLlegada2" name="fechaLlegada2" />
+                        </div>
+                        <div>
+                            <label for="tiempoPermanencia2">Tiempo de Permanencia:</label>
+                            <input type="text" id="tiempoPermanencia2" name="tiempoPermanencia2" />
+                        </div>
+                        <div>
+                            <label for="destino3">Destino:</label>
+                            <input type="text" id="destino3" name="destino3" />
+                        </div>
+                        <div>
+                            <label for="fechaLlegada3">Fecha de Llegada:</label>
+                            <input type="date" id="fechaLlegada3" name="fechaLlegada3" />
+                        </div>
+                        <div>
+                            <label for="tiempoPermanencia3">Tiempo de Permanencia:</label>
+                            <input type="text" id="tiempoPermanencia3" name="tiempoPermanencia3" />
+                        </div>
+                        <div>
+                            <label for="destino4">Destino:</label>
+                            <input type="text" id="destino4" name="destino4" />
+                        </div>
+                        <div>
+                            <label for="fechaLlegada4">Fecha de Llegada:</label>
+                            <input type="date" id="fechaLlegada4" name="fechaLlegada4" />
+                        </div>
+                        <div>
+                            <label for="tiempoPermanencia4">Tiempo de Permanencia:</label>
+                            <input type="text" id="tiempoPermanencia4" name="tiempoPermanencia4" />
+                        </div>
+                        <div>
+                            <label for="destino5">Destino:</label>
+                            <input type="text" id="destino5" name="destino5" />
+                        </div>
+                        <div>
+                            <label for="fechaLlegada5">Fecha de Llegada:</label>
+                            <input type="date" id="fechaLlegada5" name="fechaLlegada5" />
+                        </div>
+                        <div>
+                            <label for="tiempoPermanencia5">Tiempo de Permanencia:</label>
+                            <input type="text" id="tiempoPermanencia5" name="tiempoPermanencia5" />
+                        </div>
+
+                        <div>
+                            <label>¿Alguna vez solicitó licencia de conducir en EE.UU?:</label>
+                            <span style="display: inline-block; margin-left: 10px">
+                                <input type="radio" id="licenciaSi" name="solicitoLicencia" value="Si" />
+                                <label for="licenciaSi">Si</label>
+                            </span>
+                            <span style="display: inline-block; margin-left: 20px">
+                                <input type="radio" id="licenciaNo" name="solicitoLicencia" value="No" />
+                                <label for="licenciaNo">No</label>
+                            </span>
+                        </div>
+
+                        <div>
+                            <label for="numeroLicencia">Número de licencia de conducir:</label>
+                            <input type="text" id="numeroLicencia" name="numeroLicencia" />
+                        </div>
+                        <div>
+                            <label for="estadoLicencia">Estado donde solicitó la licencia de conducir:</label>
+                            <input type="text" id="estadoLicencia" name="estadoLicencia" />
+                        </div>
+                        <div>
+                            <label for="fechaEmisionLicencia">Fecha de Emisión:</label>
+                            <input type="date" id="fechaEmisionLicencia" name="fechaEmisionLicencia" />
+                        </div>
+                        <br />
+
+                        <div>
+                            <label>¿Alguna vez ha emitido una VISA a EE.UU?:</label>
+                            <span style="display: inline-block; margin-left: 10px">
+                                <input type="radio" id="visaSi" name="emitioVisa" value="Si" />
+                                <label for="visaSi">Si</label>
+                            </span>
+                            <span style="display: inline-block; margin-left: 20px">
+                                <input type="radio" id="visaNo" name="emitioVisa" value="No" />
+                                <label for="visaNo">No</label>
+                            </span>
+                        </div>
+
+                        <div>
+                            <label for="numeroVisaAnterior">Número de VISA anterior:</label>
+                            <input type="text" id="numeroVisaAnterior" name="numeroVisaAnterior" />
+                        </div>
+                        <div>
+                            <label for="categoriaVisa">Categoría de Visa:</label>
+                            <input type="text" id="categoriaVisa" name="categoriaVisa" />
+                        </div>
+                        <div>
+                            <label for="fechaEmisionVisa">Fecha de emisión VISA anterior:</label>
+                            <input type="date" id="fechaEmisionVisa" name="fechaEmisionVisa" />
+                        </div>
+                        <div>
+                            <label for="fechaVencimientoVisa">Fecha de vencimiento:</label>
+                            <input type="date" id="fechaVencimientoVisa" name="fechaVencimientoVisa" />
+                        </div>
+
+                        <div>
+                            <label
+                                >¿Está solicitando en el mismo país o ubicación donde se emitió la visa
+                                anterior?:</label
+                            >
+                            <span style="display: inline-block; margin-left: 10px">
+                                <input type="radio" id="paisSi" name="solicitaMismoPais" value="Si" />
+                                <label for="paisSi">Si</label>
+                            </span>
+                            <span style="display: inline-block; margin-left: 20px">
+                                <input type="radio" id="paisNo" name="solicitaMismoPais" value="No" />
+                                <label for="paisNo">No</label>
+                            </span>
+                        </div>
+
+                        <br />
+                        <div>
+                            <label>¿Alguna vez has perdido o le han robado su VISA estadounidense?:</label>
+                            <span style="display: inline-block; margin-left: 10px">
+                                <input type="radio" id="roboVisaSi" name="roboVisa" value="Si" />
+                                <label for="roboVisaSi">Si</label>
+                            </span>
+                            <span style="display: inline-block; margin-left: 20px">
+                                <input type="radio" id="roboVisaNo" name="roboVisa" value="No" />
+                                <label for="roboVisaNo">No</label>
+                            </span>
+                        </div>
+
+                        <div>
+                            <label for="fechaRoboVisa">Fecha:</label>
+                            <input type="date" id="fechaRoboVisa" name="fechaRoboVisa" />
+                        </div>
+
+                        <br />
+                        <div>
+                            <label>¿Alguna vez se ha cancelado o revocado su visa estadounidense?:</label>
+                            <span style="display: inline-block; margin-left: 10px">
+                                <input type="radio" id="canceloVisaSi" name="canceloVisa" value="Si" />
+                                <label for="canceloVisaSi">Si</label>
+                            </span>
+                            <span style="display: inline-block; margin-left: 20px">
+                                <input type="radio" id="canceloVisaNo" name="canceloVisa" value="No" />
+                                <label for="canceloVisaNo">No</label>
+                            </span>
+                        </div>
+
+                        <div>
+                            <label for="fechaCanceloVisa">Fecha:</label>
+                            <input type="date" id="fechaCanceloVisa" name="fechaCanceloVisa" />
+                        </div>
+
+                        <br />
+                        <div>
+                            <label>¿ALGUNA VEZ SE LE HA RECHAZADO LA VISA ESTADOUNIDENSE?:</label>
+                            <span style="display: inline-block; margin-left: 10px">
+                                <input type="radio" id="rechazoVisaSi" name="rechazoVisa" value="Si" />
+                                <label for="rechazoVisaSi">Si</label>
+                            </span>
+                            <span style="display: inline-block; margin-left: 20px">
+                                <input type="radio" id="rechazoVisaNo" name="rechazoVisa" value="No" />
+                                <label for="rechazoVisaNo">No</label>
+                            </span>
+                        </div>
+
+                        <div>
+                            <label for="fechaRechazoVisa">Fecha:</label>
+                            <input type="date" id="fechaRechazoVisa" name="fechaRechazoVisa" />
+                        </div>
+
+                        <br />
+                        <div>
+                            <label>¿ALGUNA VEZ LE NEGARON EL INGRESO A U.S.A.?:</label>
+                            <span style="display: inline-block; margin-left: 10px">
+                                <input type="radio" id="negadoIngresoSi" name="negadoIngreso" value="Si" />
+                                <label for="negadoIngresoSi">Si</label>
+                            </span>
+                            <span style="display: inline-block; margin-left: 20px">
+                                <input type="radio" id="negadoIngresoNo" name="negadoIngreso" value="No" />
+                                <label for="negadoIngresoNo">No</label>
+                            </span>
+                        </div>
+
+                        <div>
+                            <label for="fechaNegadoIngreso">Fecha:</label>
+                            <input type="date" id="fechaNegadoIngreso" name="fechaNegadoIngreso" />
+                        </div>
+
+                        <br />
+                        <div>
+                            <label>¿ALGUNA VEZ LO HAN DEPORTADO?:</label>
+                            <span style="display: inline-block; margin-left: 10px">
+                                <input type="radio" id="deportadoSi" name="deportado" value="Si" />
+                                <label for="deportadoSi">Si</label>
+                            </span>
+                            <span style="display: inline-block; margin-left: 20px">
+                                <input type="radio" id="deportadoNo" name="deportado" value="No" />
+                                <label for="deportadoNo">No</label>
+                            </span>
+                        </div>
+
+                        <div>
+                            <label for="fechaDeportado">Fecha:</label>
+                            <input type="date" id="fechaDeportado" name="fechaDeportado" />
+                        </div>
+
+                        <br />
+                        <div>
+                            <label>¿HA ESTADO PRESO O DETENIDO ALGUNA VEZ?:</label>
+                            <span style="display: inline-block; margin-left: 10px">
+                                <input type="radio" id="presoSi" name="preso" value="Si" />
+                                <label for="presoSi">Si</label>
+                            </span>
+                            <span style="display: inline-block; margin-left: 20px">
+                                <input type="radio" id="presoNo" name="preso" value="No" />
+                                <label for="presoNo">No</label>
+                            </span>
+                        </div>
+
+                        <div>
+                            <label for="fechaPreso">Fecha:</label>
+                            <input type="date" id="fechaPreso" name="fechaPreso" />
+                        </div>
+
+                        <br />
+                        <div>
+                            <label
+                                >¿ALGUIEN HA PRESENTADO ALGUNA VEZ UNA PETICIÓN DE INMIGRANTE EN SU NOMBRE ANTE LOS
+                                SERVICIOS DE CIUDADANÍA?</label
+                            >
+                            <span style="display: inline-block; margin-left: 10px">
+                                <input type="radio" id="peticionSi" name="peticion" value="Si" />
+                                <label for="peticionSi">Si</label>
+                            </span>
+                            <span style="display: inline-block; margin-left: 20px">
+                                <input type="radio" id="peticionNo" name="peticion" value="No" />
+                                <label for="peticionNo">No</label>
+                            </span>
+                        </div>
+
+                        <div>
+                            <label for="peticionExplique">Explique:</label>
+                            <input type="text" id="peticionExplique" name="peticionExplique" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3>Pasaporte</h3>
+                    <div class="grid-container">
+                        <div>
+                            <label for="numeroPasaporte">Número de Pasaporte:</label>
+                            <input type="text" id="numeroPasaporte" name="numeroPasaporte" />
+                        </div>
+                        <div>
+                            <label>Tipo de Pasaporte:</label>
+                            <select id="tipoPasaporte" name="tipoPasaporte">
+                                <option value="Regular">Regular</option>
+                                <option value="Oficial">Oficial</option>
+                                <option value="Diplomatico">Diplomático</option>
+                                <option value="Pass">Pass (Laissez-Passer)</option>
+                                <option value="Otro">Otro (Especificar)</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="paisEmision">País/Autoridad que emitió el pasaporte:</label>
+                            <input type="text" id="paisEmision" name="paisEmision" />
+                        </div>
+                        <div>
+                            <label for="ciudadEmision">Ciudad & Provincia donde se emitió el pasaporte:</label>
+                            <input type="text" id="ciudadEmision" name="ciudadEmision" />
+                        </div>
+                        <div>
+                            <label for="fechaEmisionPasaporte">Fecha de Emisión del Pasaporte:</label>
+                            <input type="date" id="fechaEmisionPasaporte" name="fechaEmisionPasaporte" />
+                        </div>
+                        <div>
+                            <label for="fechaVencimientoPasaporte">Fecha de Vencimiento:</label>
+                            <input type="date" id="fechaVencimientoPasaporte" name="fechaVencimientoPasaporte" />
+                        </div>
+
+                        <div>
+                            <label>¿Alguna vez has perdido o te han robado el pasaporte?:</label>
+                            <span style="display: inline-block; margin-left: 10px">
+                                <input type="radio" id="roboPasaporteSi" name="roboPasaporte" value="Si" />
+                                <label for="roboPasaporteSi">Si</label>
+                            </span>
+                            <span style="display: inline-block; margin-left: 20px">
+                                <input type="radio" id="roboPasaporteNo" name="roboPasaporte" value="No" />
+                                <label for="roboPasaporteNo">No</label>
+                            </span>
+                        </div>
+
+                        <div>
+                            <label for="fechaRoboPasaporte">Fecha:</label>
+                            <input type="date" id="fechaRoboPasaporte" name="fechaRoboPasaporte" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3>Contacto en Estados Unidos</h3>
+                    <div class="grid-container">
+                        <div>
+                            <label for="nombreEmpresaContacto">Nombre de la empresa u organización en U.S.A.:</label>
+                            <input type="text" id="nombreEmpresaContacto" name="nombreEmpresaContacto" />
+                        </div>
+                        <div>
+                            <label for="nombrePersonaContacto"
+                                >Nombre de la persona con quien se encontrará en U.S.A.:</label
+                            >
+                            <input type="text" id="nombrePersonaContacto" name="nombrePersonaContacto" />
+                        </div>
+                        <div>
+                            <label for="parentescoContacto">Parentesco con usted:</label>
+                            <input type="text" id="parentescoContacto" name="parentescoContacto" />
+                        </div>
+                        <div>
+                            <label for="telefonoContacto">Teléfono:</label>
+                            <input type="text" id="telefonoContacto" name="telefonoContacto" />
+                        </div>
+                        <div>
+                            <label for="direccionContacto">Dirección en U.S.A.:</label>
+                            <input type="text" id="direccionContacto" name="direccionContacto" />
+                        </div>
+                        <div>
+                            <label for="codigoPostalContacto">Código Postal:</label>
+                            <input type="text" id="codigoPostalContacto" name="codigoPostalContacto" />
+                        </div>
+                        <div>
+                            <label for="correoContacto">Correo Electrónico:</label>
+                            <input type="email" id="correoContacto" name="correoContacto" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3>Información Familiar del Solicitante/Titular</h3>
+                    <div class="grid-container">
+                        <div>
+                            <h4>Padres</h4>
+                        </div>
+                        <div>
+                            <label for="apellidosPadre">Apellidos del Padre:</label>
+                            <input type="text" id="apellidosPadre" name="apellidosPadre" />
+                        </div>
+                        <div>
+                            <label for="nombresPadre">Nombres del Padre:</label>
+                            <input type="text" id="nombresPadre" name="nombresPadre" />
+                        </div>
+
+                        <div>
+                            <label>¿Su padre está en E.E.U.U.?</label>
+                            <div style="display: flex; gap: 10px; align-items: center; margin-top: 5px">
+                                <input type="radio" id="padreEEUUSi" name="padreEEUU" value="Si" />
+                                <label for="padreEEUUSi">Sí</label>
+                                <input type="radio" id="padreEEUUNo" name="padreEEUU" value="No" />
+                                <label for="padreEEUUNo">No</label>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="fechaNacimientoPadre">Fecha de Nacimiento:</label>
+                            <input type="date" id="fechaNacimientoPadre" name="fechaNacimientoPadre" />
+                        </div>
+                        <div>
+                            <label>Estatus en Estados Unidos (Padre):</label>
+                            <select id="estatusPadreEEUU" name="estatusPadreEEUU">
+                                <option value="Ciudadano">Ciudadano</option>
+                                <option value="Residente">Residente</option>
+                                <option value="Turista">Turista</option>
+                                <option value="Otros">Otros/No sé</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="apellidosMadre">Apellidos de la Madre:</label>
+                            <input type="text" id="apellidosMadre" name="apellidosMadre" />
+                        </div>
+                        <div>
+                            <label for="nombresMadre">Nombres de la Madre:</label>
+                            <input type="text" id="nombresMadre" name="nombresMadre" />
+                        </div>
+
+                        <div>
+                            <label>¿Su madre está en E.E.U.U.?</label>
+                            <div style="display: flex; gap: 10px; align-items: center; margin-top: 5px">
+                                <input type="radio" id="madreEEUUSi" name="madreEEUU" value="Si" />
+                                <label for="madreEEUUSi">Sí</label>
+                                <input type="radio" id="madreEEUUNo" name="madreEEUU" value="No" />
+                                <label for="madreEEUUNo">No</label>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="fechaNacimientoMadre">Fecha de Nacimiento:</label>
+                            <input type="date" id="fechaNacimientoMadre" name="fechaNacimientoMadre" />
+                        </div>
+                        <div>
+                            <label>Estatus en Estados Unidos (Madre):</label>
+                            <select id="estatusMadreEEUU" name="estatusMadreEEUU">
+                                <option value="Ciudadano">Ciudadano</option>
+                                <option value="Residente">Residente</option>
+                                <option value="Turista">Turista</option>
+                                <option value="Otros">Otros/No sé</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3>Otros Parientes</h3>
+                    <div class="grid-container">
+                        <div>
+                            <label>¿Tiene parientes inmediatos (hermanos/hijos/cónyuge/prometido) en U.S.A?</label>
+                            <div style="display: flex; gap: 10px; align-items: center; margin-top: 5px">
+                                <input type="radio" id="parientesSi" name="parientesEEUU" value="Si" />
+                                <label for="parientesSi">Sí</label>
+                                <input type="radio" id="parientesNo" name="parientesEEUU" value="No" />
+                                <label for="parientesNo">No</label>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="nombresPariente1">Nombres completos del pariente:</label>
+                            <input type="text" id="nombresPariente1" name="nombresPariente1" />
+                        </div>
+                        <div>
+                            <label for="relacionPariente1">Relación con usted:</label>
+                            <input type="text" id="relacionPariente1" name="relacionPariente1" />
+                        </div>
+                        <div>
+                            <label>Estatus en Estados Unidos:</label>
+                            <select id="estatusPariente1EEUU" name="estatusPariente1EEUU">
+                                <option value="Ciudadano">Ciudadano</option>
+                                <option value="Residente">Residente</option>
+                                <option value="Turista">Turista</option>
+                                <option value="Otros">Otros/No sé</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="nombresPariente2">Nombres completos del pariente:</label>
+                            <input type="text" id="nombresPariente2" name="nombresPariente2" />
+                        </div>
+                        <div>
+                            <label for="relacionPariente2">Relación con usted:</label>
+                            <input type="text" id="relacionPariente2" name="relacionPariente2" />
+                        </div>
+                        <div>
+                            <label>Estatus en Estados Unidos:</label>
+                            <select id="estatusPariente2EEUU" name="estatusPariente2EEUU">
+                                <option value="Ciudadano">Ciudadano</option>
+                                <option value="Residente">Residente</option>
+                                <option value="Turista">Turista</option>
+                                <option value="Otros">Otros/No sé</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="nombresPariente3">Nombres completos del pariente:</label>
+                            <input type="text" id="nombresPariente3" name="nombresPariente3" />
+                        </div>
+                        <div>
+                            <label for="relacionPariente3">Relación con usted:</label>
+                            <input type="text" id="relacionPariente3" name="relacionPariente3" />
+                        </div>
+                        <div>
+                            <label>Estatus en Estados Unidos:</label>
+                            <select id="estatusPariente3EEUU" name="estatusPariente3EEUU">
+                                <option value="Ciudadano">Ciudadano</option>
+                                <option value="Residente">Residente</option>
+                                <option value="Turista">Turista</option>
+                                <option value="Otros">Otros/No sé</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3>¿TIENE OTROS PARIENTES EN LOS ESTADOS UNIDOS?:</h3>
+                    <div class="grid-container">
+                        <div>
+                            <label>¿TIENE OTROS PARIENTES EN LOS ESTADOS UNIDOS?</label>
+                            <div style="display: flex; gap: 10px; align-items: center; margin-top: 5px">
+                                <input type="radio" id="otrosParientesSi" name="otrosParientesEEUU" value="Si" />
+                                <label for="otrosParientesSi">Sí</label>
+                                <input type="radio" id="otrosParientesNo" name="otrosParientesEEUU" value="No" />
+                                <label for="otrosParientesNo">No</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3>Cónyuge o Conviviente (Más de dos años con el mismo domicilio)</h3>
+                    <div class="grid-container">
+                        <div>
+                            <label for="apellidosConyuge">Apellidos del Cónyuge:</label>
+                            <input type="text" id="apellidosConyuge" name="apellidosConyuge" />
+                        </div>
+                        <div>
+                            <label for="nombresConyuge">Nombres del Cónyuge:</label>
+                            <input type="text" id="nombresConyuge" name="nombresConyuge" />
+                        </div>
+                        <div>
+                            <label for="lugarNacimientoConyuge">Lugar de Nacimiento:</label>
+                            <input type="text" id="lugarNacimientoConyuge" name="lugarNacimientoConyuge" />
+                        </div>
+                        <div>
+                            <label for="fechaNacimientoConyuge">Fecha de Nacimiento:</label>
+                            <input type="date" id="fechaNacimientoConyuge" name="fechaNacimientoConyuge" />
+                        </div>
+                        <div>
+                            <label for="direccionConyuge">Dirección si viven en lugares diferentes:</label>
+                            <input type="text" id="direccionConyuge" name="direccionConyuge" />
+                        </div>
+                        <div>
+                            <label for="correoConyuge">Correo Electrónico:</label>
+                            <input type="email" id="correoConyuge" name="correoConyuge" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3>Divorciado</h3>
+                    <div class="grid-container">
+                        <div>
+                            <label>Número de Ex-Esposos(as):</label>
+                            <div style="display: flex; gap: 10px; align-items: center; margin-top: 5px">
+                                <input type="radio" id="exesposos1" name="numExesposos" value="1" />
+                                <label for="exesposos1">1</label>
+                                <input type="radio" id="exesposos2" name="numExesposos" value="2" />
+                                <label for="exesposos2">2</label>
+                                <input type="radio" id="exesposos3" name="numExesposos" value="3" />
+                                <label for="exesposos3">3</label>
+                                <input type="radio" id="exesposos4" name="numExesposos" value="4" />
+                                <label for="exesposos4">4</label>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="apellidosExConyuge">Apellidos del Ex-Cónyuge:</label>
+                            <input type="text" id="apellidosExConyuge" name="apellidosExConyuge" />
+                        </div>
+                        <div>
+                            <label for="nombresExConyuge">Nombres del Ex-Cónyuge:</label>
+                            <input type="text" id="nombresExConyuge" name="nombresExConyuge" />
+                        </div>
+                        <div>
+                            <label for="lugarNacimientoExConyuge">Lugar de Nacimiento:</label>
+                            <input type="text" id="lugarNacimientoExConyuge" name="lugarNacimientoExConyuge" />
+                        </div>
+                        <div>
+                            <label for="fechaNacimientoExConyuge">Fecha de Nacimiento:</label>
+                            <input type="date" id="fechaNacimientoExConyuge" name="fechaNacimientoExConyuge" />
+                        </div>
+                        <div>
+                            <label for="direccionExConyuge">Dirección si la conoce:</label>
+                            <input type="text" id="direccionExConyuge" name="direccionExConyuge" />
+                        </div>
+                        <div>
+                            <label for="fechaMatrimonio">Fecha de Matrimonio:</label>
+                            <input type="date" id="fechaMatrimonio" name="fechaMatrimonio" />
+                        </div>
+                        <div>
+                            <label for="fechaDivorcio">Fecha de Divorcio:</label>
+                            <input type="date" id="fechaDivorcio" name="fechaDivorcio" />
+                        </div>
+                        <div>
+                            <label for="terminosDivorcio">Términos de Divorcio:</label>
+                            <input type="text" id="terminosDivorcio" name="terminosDivorcio" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3>Viudo</h3>
+                    <div class="grid-container">
+                        <div>
+                            <label for="apellidosFallecido">Apellidos del Fallecido:</label>
+                            <input type="text" id="apellidosFallecido" name="apellidosFallecido" />
+                        </div>
+                        <div>
+                            <label for="nombresFallecido">Nombres del Fallecido:</label>
+                            <input type="text" id="nombresFallecido" name="nombresFallecido" />
+                        </div>
+                        <div>
+                            <label for="lugarNacimientoFallecido">Lugar de Nacimiento:</label>
+                            <input type="text" id="lugarNacimientoFallecido" name="lugarNacimientoFallecido" />
+                        </div>
+                        <div>
+                            <label for="fechaNacimientoFallecido">Fecha de Nacimiento:</label>
+                            <input type="date" id="fechaNacimientoFallecido" name="fechaNacimientoFallecido" />
+                        </div>
+                        <div>
+                            <label for="lugarDefuncion">Lugar de Defunción:</label>
+                            <input type="text" id="lugarDefuncion" name="lugarDefuncion" />
+                        </div>
+                        <div>
+                            <label for="fechaDefuncion">Fecha de Defunción:</label>
+                            <input type="date" id="fechaDefuncion" name="fechaDefuncion" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3>Trabajo</h3>
+                    <div class="grid-container">
+                        <div>
+                            <label for="trabajoActual">Trabajo Actual:</label>
+                            <input type="text" id="trabajoActual" name="trabajoActual" />
+                        </div>
+                        <div>
+                            <label for="centroLaboral">Centro de Labor Actual:</label>
+                            <input type="text" id="centroLaboral" name="centroLaboral" />
+                        </div>
+                        <div>
+                            <label for="direccionLaboral">Dirección Laboral:</label>
+                            <input type="text" id="direccionLaboral" name="direccionLaboral" />
+                        </div>
+                        <div>
+                            <label for="fechaIngreso">Fecha de Ingreso (Día/Mes/Año):</label>
+                            <input type="date" id="fechaIngreso" name="fechaIngreso" />
+                        </div>
+                        <div>
+                            <label for="telefonoTrabajoActual">Teléfono:</label>
+                            <input type="text" id="telefonoTrabajoActual" name="telefonoTrabajoActual" />
+                        </div>
+                        <div>
+                            <label for="ocupacionPrincipal">Ocupación Principal:</label>
+                            <input type="text" id="ocupacionPrincipal" name="ocupacionPrincipal" />
+                        </div>
+                        <div>
+                            <label for="profesion">Profesión:</label>
+                            <input type="text" id="profesion" name="profesion" />
+                        </div>
+                        <div>
+                            <label for="funciones">Describa brevemente sus funciones:</label>
+                            <textarea id="funciones" name="funciones"></textarea>
+                        </div>
+                        <div>
+                            <label for="ingresosTotales">¿Cuántos son sus ingresos totales?:</label>
+                            <input type="text" id="sueldoMensual" name="sueldoMensual" />
+                        </div>
+                        <div>
+                            <label for="otrosIngresos">Otros:</label>
+                            <input type="text" id="otrosIngresos" name="otrosIngresos" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3>Empleo anterior</h3>
+                    <p>*Solo si en el actual trabaja menos de 5 años</p>
+                    <div class="grid-container">
+                        <div>
+                            <label for="nombreEmpresaAnterior">Nombre de Empresa:</label>
+                            <input type="text" id="nombreEmpresaAnterior" name="nombreEmpresaAnterior" />
+                        </div>
+                        <div>
+                            <label for="direccionAnterior">Dirección del Empleo Anterior:</label>
+                            <input type="text" id="direccionAnterior" name="direccionAnterior" />
+                        </div>
+                        <div>
+                            <label for="cargoAnterior">Cargo que ocupó:</label>
+                            <input type="text" id="cargoAnterior" name="cargoAnterior" />
+                        </div>
+                        <div>
+                            <label for="telefonoAnterior">Teléfono:</label>
+                            <input type="text" id="telefonoAnterior" name="telefonoAnterior" />
+                        </div>
+                        <div>
+                            <label for="supervisorAnterior">Nombre del Supervisor:</label>
+                            <input type="text" id="supervisorAnterior" name="supervisorAnterior" />
+                        </div>
+                        <div>
+                            <label for="fechasLaboroDesde">Fechas en las que laboró: Desde (Día/Mes/Año):</label>
+                            <input type="date" id="fechasLaboroDesde" name="fechasLaboroDesde" />
+                        </div>
+                        <div>
+                            <label for="fechasLaboroHasta">Hasta (Día/Mes/Año):</label>
+                            <input type="date" id="fechasLaboroHasta" name="fechasLaboroHasta" />
+                        </div>
+                        <div>
+                            <label for="funcionesAnterior">Describa brevemente sus funciones:</label>
+                            <textarea id="funcionesAnterior" name="funcionesAnterior"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3>Estudios</h3>
+                    <div class="grid-container">
+                        <div>
+                            <label for="nombreInstitucion">Nombre de la Institución:</label>
+                            <input type="text" id="nombreInstitucion" name="nombreInstitucion" />
+                        </div>
+                        <div>
+                            <label for="direccionInstitucion">Dirección:</label>
+                            <input type="text" id="direccionInstitucion" name="direccionInstitucion" />
+                        </div>
+                        <div>
+                            <label for="telefonoInstitucion">Teléfono:</label>
+                            <input type="text" id="telefonoInstitucion" name="telefonoInstitucion" />
+                        </div>
+                        <div>
+                            <label for="gradoEstudios">Grado de Estudios:</label>
+                            <input type="text" id="gradoEstudios" name="gradoEstudios" />
+                        </div>
+                        <div>
+                            <label for="estudiosDesde">Estudios: Desde (Día/Mes/Año):</label>
+                            <input type="date" id="estudiosDesde" name="estudiosDesde" />
+                        </div>
+                        <div>
+                            <label for="estudiosHasta">Hasta (Día/Mes/Año):</label>
+                            <input type="date" id="estudiosHasta" name="estudiosHasta" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3>Preguntas de Seguridad</h3>
+                    <div class="grid-container">
+                        <div>
+                            <label>¿Pertenece a un clan o tribu?</label>
+                            <div style="display: flex; gap: 10px; align-items: center; margin-top: 5px">
+                                <input type="radio" id="clanSi" name="perteneceClan" value="Si" />
+                                <label for="clanSi">Sí</label>
+                                <input type="radio" id="clanNo" name="perteneceClan" value="No" />
+                                <label for="clanNo">No</label>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="nombreClan">Nombre:</label>
+                            <input type="text" id="nombreClan" name="nombreClan" />
+                        </div>
+                        <div>
+                            <label for="idiomasHabla">Proporcione una lista de idiomas que habla:</label>
+                            <input type="text" id="idiomasHabla" name="idiomasHabla" />
+                        </div>
+                        <div>
+                            <label
+                                >¿Has viajado a cualquier país / región en los últimos cinco años? (NO ESTADOS UNIDOS),
+                                indicar todos los países:</label
+                            >
+                            <input type="text" id="paisesVisitados" name="paisesVisitados" />
+                        </div>
+
+                        <div>
+                            <label>¿Pertenece a alguna organización social, profesional o benéfica?</label>
+                            <div style="display: flex; gap: 10px; align-items: center; margin-top: 5px">
+                                <input type="radio" id="organizacionSi" name="perteneceOrganizacion" value="Si" />
+                                <label for="organizacionSi">Sí</label>
+                                <input type="radio" id="organizacionNo" name="perteneceOrganizacion" value="No" />
+                                <label for="organizacionNo">No</label>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="nombreOrganizacion">Indique nombre o registro profesional:</label>
+                            <input type="text" id="nombreOrganizacion" name="nombreOrganizacion" />
+                        </div>
+
+                        <div>
+                            <label
+                                >¿Tiene alguna habilidad o capacitación en armas de fuego, explosivos, experiencia
+                                nuclear, biológica o química?</label
+                            >
+                            <div style="display: flex; gap: 10px; align-items: center; margin-top: 5px">
+                                <input type="radio" id="habilidadArmasSi" name="habilidadArmas" value="Si" />
+                                <label for="habilidadArmasSi">Sí</label>
+                                <input type="radio" id="habilidadArmasNo" name="habilidadArmas" value="No" />
+                                <label for="habilidadArmasNo">No</label>
+                            </div>
+                        </div>
+
+                        <br />
+                        <div>
+                            <label>¿Realizó servicio militar?</label>
+                            <div style="display: flex; gap: 10px; align-items: center; margin-top: 5px">
+                                <input type="radio" id="servicioMilitarSi" name="servicioMilitar" value="Si" />
+                                <label for="servicioMilitarSi">Sí</label>
+                                <input type="radio" id="servicioMilitarNo" name="servicioMilitar" value="No" />
+                                <label for="servicioMilitarNo">No</label>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="institucionServicio">Institución a la que sirvió:</label>
+                            <input type="text" id="institucionServicio" name="institucionServicio" />
+                        </div>
+                        <div>
+                            <label for="servicioDesde">Desde:</label>
+                            <input type="date" id="servicioDesde" name="servicioDesde" />
+                        </div>
+                        <div>
+                            <label for="servicioHasta">Hasta:</label>
+                            <input type="date" id="servicioHasta" name="servicioHasta" />
+                        </div>
+                        <div>
+                            <label for="rangoMilitar">Rango:</label>
+                            <input type="text" id="rangoMilitar" name="rangoMilitar" />
+                        </div>
+                        <div>
+                            <label for="cargoMilitar">Cargo:</label>
+                            <input type="text" id="cargoMilitar" name="cargoMilitar" />
+                        </div>
+                        <div>
+                            <label for="especialidadMilitar">Especialidad:</label>
+                            <input type="text" id="especialidadMilitar" name="especialidadMilitar" />
+                        </div>
+
+                        <div>
+                            <label>¿Alguna vez alguien lo ha peticionado?</label>
+                            <div style="display: flex; gap: 10px; align-items: center; margin-top: 5px">
+                                <input type="radio" id="peticionadoSi" name="alguienPeticiono" value="Si" />
+                                <label for="peticionadoSi">Sí</label>
+                                <input type="radio" id="peticionadoNo" name="alguienPeticiono" value="No" />
+                                <label for="peticionadoNo">No</label>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="fechaPeticion">Fecha:</label>
+                            <input type="date" id="fechaPeticion" name="fechaPeticion" />
+                        </div>
+                        <div>
+                            <label for="numeroRecibo">Anote el número de recibo o de caso</label>
+                            <input type="text" id="numeroRecibo" name="numeroRecibo" />
+                        </div>
+
+                        <div>
+                            <label
+                                >¿Alguna vez ha sido detenido o condenado por cualquier delito, aunque susceptibles de
+                                indulto, amnistía o una acción similar?</label
+                            >
+                            <div style="display: flex; gap: 10px; align-items: center; margin-top: 5px">
+                                <input type="radio" id="detenidoSi" name="detenidoCondenado" value="Si" />
+                                <label for="detenidoSi">Sí</label>
+                                <input type="radio" id="detenidoNo" name="detenidoCondenado" value="No" />
+                                <label for="detenidoNo">No</label>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="fechaDetencion">Fecha:</label>
+                            <input type="date" id="fechaDetencion" name="fechaDetencion" />
+                        </div>
+
+                        <br />
+                        <div>
+                            <label
+                                >¿Alguna vez ha prestado servicio, ha sido miembro o ha estado involucrado en una unidad
+                                paramilitar, grupo rebelde, grupo terrorista u otra organización insurgente?</label
+                            >
+                            <div style="display: flex; gap: 10px; align-items: center; margin-top: 5px">
+                                <input type="radio" id="grupoInvolucradoSi" name="grupoInvolucrado" value="Si" />
+                                <label for="grupoInvolucradoSi">Sí</label>
+                                <input type="radio" id="grupoInvolucradoNo" name="grupoInvolucrado" value="No" />
+                                <label for="grupoInvolucradoNo">No</label>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="grupoExplique">Explique:</label>
+                            <input type="text" id="grupoExplique" name="grupoExplique" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3>Información Adicional</h3>
+                    <div class="grid-container">
+                        <div>
+                            <p>*Si desea usar su correo personal nos REENVIA solo el primer correo que recibe a:</p>
+                        </div>
+                        <div>
+                            <label for="correoPersonal">Correo Electrónico Personal:</label>
+                            <input type="email" id="correoPersonal" name="correoPersonal" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3>Información para VISA de Estudiante (F)</h3>
+                    <p>
+                        * Si esta solicitud es para una VISA de ESTUDIANTE (F), por favor agregue la referencia de dos
+                        personas NO familiares
+                    </p>
+                    <div class="grid-container">
+                        <div>
+                            <label for="nombreReferencia1">Nombre Completo:</label>
+                            <input type="text" id="nombreReferencia1" name="nombreReferencia1" />
+                        </div>
+                        <div>
+                            <label for="direccionReferencia1">Dirección:</label>
+                            <input type="text" id="direccionReferencia1" name="direccionReferencia1" />
+                        </div>
+                        <div>
+                            <label for="telefonoReferencia1">Teléfono:</label>
+                            <input type="text" id="telefonoReferencia1" name="telefonoReferencia1" />
+                        </div>
+                        <div>
+                            <label for="emailReferencia1">E-mail:</label>
+                            <input type="email" id="emailReferencia1" name="emailReferencia1" />
+                        </div>
+                        <br />
+                        <div>
+                            <label for="nombreReferencia2">Nombre Completo:</label>
+                            <input type="text" id="nombreReferencia2" name="nombreReferencia2" />
+                        </div>
+                        <div>
+                            <label for="direccionReferencia2">Dirección:</label>
+                            <input type="text" id="direccionReferencia2" name="direccionReferencia2" />
+                        </div>
+                        <div>
+                            <label for="telefonoReferencia2">Teléfono:</label>
+                            <input type="text" id="telefonoReferencia2" name="telefonoReferencia2" />
+                        </div>
+                        <div>
+                            <label for="emailReferencia2">E-mail:</label>
+                            <input type="email" id="emailReferencia2" name="emailReferencia2" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3>Foto</h3>
+                    <div class="grid-container">
+                        <div>
+                            <p>01 foto 05 x 05 cm- rostro cabeza a menton 3.2cm</p>
+                            <p>fondo blanco a colores</p>
+                            <p>sin aretes, sin piercings</p>
+                            <p>sin lentes, sin retoques</p>
+                            <p>mostrando ambas orejas</p>
+                            <p>Ropa de color NO blanca NI negra</p>
+                            <p>Formato JPG & fisico</p>
+                            <p>Se recomienda la foto sea con iluminación en foto estudio</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit">Enviar A Base de Datos</button>
+            </form>
+        </div>
+
+        <script>
+            document.getElementById("vysForm").addEventListener("submit", function (event) {
+                event.preventDefault(); // Previene el envío tradicional del formulario
+
+                const form = event.target;
+                const formData = new FormData(form);
+                const data = {};
+
+                // Convertir FormData a objeto JSON
+                formData.forEach((value, key) => {
+                    data[key] = value;
+                });
+
+                // URL del webhook de Make (reemplaza "your-webhook-id" por el ID de tu webhook)
+                const webhookURL = "https://hook.eu2.make.com/wpl054oshln9rrtjtful65r7wjgf5lkh";
+
+                fetch(webhookURL, {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify(data)
+                })
+                    .then((response) => {
+                        if (!response.ok) {
+                            throw new Error("Error en la respuesta del webhook: " + response.status);
+                        }
+                        return response.text(); // O response.json() según lo que devuelva tu webhook
+                    })
+                    .then((result) => {
+                        console.log("Respuesta del webhook:", result);
+                        alert("Formulario enviado correctamente a Make!");
+                        form.reset();
+                    })
+                    .catch((error) => {
+                        console.error("Error al enviar el webhook:", error);
+                        alert("El envío del formulario falló: " + error.message);
+                    });
+            });
+        </script>
+    </body>
+</html>
